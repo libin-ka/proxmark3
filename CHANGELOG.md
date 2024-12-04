@@ -5,6 +5,7 @@ This project uses the changelog in accordance with [keepchangelog](http://keepac
 ## [unreleased][unreleased]
 - Automatically set maximum read/write block when using predefined types in `hf_mf_ultimatecard` script (@piotrva)
 - Changed SPI flash detection to calculate the size instead of table lookup, updated spi_flash_decode.py script with more ICs (@ANTodorov)
+- Added  Proxmark3 Ultimate FPGA xc2s50-5-tq144.ucf files (@libin-ka)
 - Fixed `hf/lf tune` segfault when called from script (@doegox)
 - Added option to set and get maximum read/write block number using `hf_mf_ultimatecard` script (@piotrva)
 - Added JEDEC information for SPI flash W25Q64JV (@ANTodorov)
